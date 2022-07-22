@@ -3,8 +3,10 @@ package Pkg2;
 import project.Assignment5;
 
 public class One {
+	
 	public void print1()
 	{
+		
 		this.print3();
 		System.out.println("Default method");
 		
@@ -14,6 +16,7 @@ public class One {
 	{
 		System.out.println("One parameterized method");
 		this.print2();
+		
 	}
 	
 	public void print2()

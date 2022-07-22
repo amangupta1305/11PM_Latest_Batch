@@ -6,6 +6,7 @@ public class Assignment3 {
 	{
 		int c=a/b;
 		System.out.println("The div rssult is " +c);
+		System.out.println("Coming");
 		return c;
 	}
 	
