@@ -3,6 +3,8 @@ package Pkg2;
 
 public class ConstInheritnce {
 	
+	//int age;
+	
 	public ConstInheritnce()
 	{
 		this(44,55,22);

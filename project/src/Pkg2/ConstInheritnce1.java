@@ -27,7 +27,16 @@ public class ConstInheritnce1 extends ConstInheritnce{
     	this (7,8,1);
     	System.out.println("Child four parameterized Constructor");
     }
+    
+    /*public ConstInheritnce1(int j, int k,int m,int n,int l)
+    {
+                 super(25);
+          System.out.println(25);
+    	System.out.println("Last");
+    }*/
     public static void main(String[] args) {
     	ConstInheritnce1 ob= new ConstInheritnce1(5);
+    	//ConstInheritnce1 ob5=new ConstInheritnce1(5,6,7,8,9);
+    	
 	}
 }
