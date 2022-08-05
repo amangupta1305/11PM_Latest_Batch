@@ -1,8 +1,8 @@
 package pkg3;
 
-public class Dynamicploy extends Staticpoly
+public final class Dynamicploy extends Staticpoly
 {
-	public static void m1(int g)
+	public void m1(int g)
 	{
 		System.out.println("i am the static method of child class");
 	}

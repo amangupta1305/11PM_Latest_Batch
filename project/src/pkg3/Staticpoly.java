@@ -3,10 +3,27 @@ package pkg3;
 public class Staticpoly {
 
 	
-	public static void m1(int g)
+	
+	
+	static int a=0;
+	public void method()
 	{
-		System.out.println("i am the static method of parent class");
+		 a=a+1;
+		System.out.println("The value is" +a) ;
 	}
+	
+	public static void main(String[] args) {
+		Staticpoly d = new Staticpoly();
+		d.method();
+		
+		Staticpoly de = new Staticpoly();
+		de.method();
+		
+		Staticpoly dea = new Staticpoly();
+		dea.method();
+		
 	}
+}
+	
 	
 

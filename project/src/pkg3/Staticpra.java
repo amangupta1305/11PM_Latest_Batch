@@ -1,7 +1,5 @@
 package pkg3;
 
-import java.util.Scanner;
-
 public class Staticpra {
 	
 	static int Result;
@@ -31,6 +29,8 @@ public class Staticpra {
 		Staticpra.Result=456;
 		System.out.println(Staticpra.Result);
 		Staticpra.stamethod(12);
+		
+		
 		
 		
 		
