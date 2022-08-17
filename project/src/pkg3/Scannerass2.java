@@ -50,6 +50,7 @@ public class Scannerass2 {
 		int addres=d.add(miunusres, E);
 		int minusres2=d.minus(addres, G);
 	    d.divide(minusres2, H);
+	    
 		
 	}
 }
